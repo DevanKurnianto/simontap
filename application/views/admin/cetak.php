@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         title: {
-            text: 'Grafik Data Monitoring Kelembaban'
+            text: 'Grafik  Monitoring Kelembaban'
         },
         yAxis: {
             title: {
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         title: {
-            text: 'Grafik Data Monitoring Berat'
+            text: 'Grafik  Monitoring Berat'
         },
         yAxis: {
             title: {
@@ -252,7 +252,7 @@ function getAlkohol() {
         success: function(result) {
             let dataAlkohol = [];
 
-            for (let i = 0; i < script result.length; i++) {
+            for (let i = 0; i < script script result.length; i++) {
                 dataAlkohol.push({
                     name: result[i].name,
                     y: parseInt(result[i].total)
