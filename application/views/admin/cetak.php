@@ -243,6 +243,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+//dfsdfs
+
 function getAlkohol() {
     $.ajax({
         url: '<?php echo base_url('') ?>',
@@ -250,7 +252,7 @@ function getAlkohol() {
         success: function(result) {
             let dataAlkohol = [];
 
-            for (let i = 0; i < result.length; i++) {
+            for (let i = 0; i < script result.length; i++) {
                 dataAlkohol.push({
                     name: result[i].name,
                     y: parseInt(result[i].total)
